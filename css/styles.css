@@ -17,7 +17,7 @@ cursor:pointer;}
 .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;}
@@ -27,7 +27,8 @@ cursor:pointer;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;}
-.nav-link:hover {color: #404bbf;}
+.nav-link:hover,
+.nav-link:focus {color: #404bbf;}
 
 .contacts-list a {
         font-size: 16px;
@@ -41,7 +42,7 @@ cursor:pointer;}
 /* secttion 1 */
 .page-title {font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color:#fff;
@@ -50,9 +51,11 @@ cursor:pointer;}
     background-color: #2e2f42;}
 .page-title-box button {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;}
-.page-title-box button:hover {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.page-title-box button:hover,
+.page-title-box button:focus {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #404bbf;}
-.button-text {font-weight: 500;
+.button-text {font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -73,24 +76,18 @@ cursor:pointer;}
 .team-section {background: #f4f4fd;}
 .team-title {font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;}
-.team-list-item {display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;}
 .team-list-item h3{font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;}
-.team-list-item p {
+.team-list-item p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -98,7 +95,7 @@ cursor:pointer;}
     color: #434455;}
 .portfolio-title {font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -108,8 +105,7 @@ cursor:pointer;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;}
-.portfolio-list-item p{
-    font-size: 16px;
+.portfolio-item-description {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
 /* footer */
@@ -117,7 +113,7 @@ cursor:pointer;}
 .logo-footer {font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;}
